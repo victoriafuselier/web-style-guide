@@ -9,7 +9,7 @@
 
 * {
     font-family: 'Lato', sans-serif;
-    color: #777;
+    color: $text-color;
     box-sizing: border-box;
   }
   
@@ -27,17 +27,17 @@
   /* ============================================= */
   
   .headline-primary {
-    color: #58e1c1;
+    color: $theme-color;
     margin-left: 10px;
   }
   
   .headline-secondary {
     font-weight: 300;
-    color: #777;
+    color: $text-color;
   }
   
   .link {
-    color: #51ddfc;
+    color: $link-color;
     font-weight: 700;
   }
   
@@ -47,7 +47,7 @@
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $theme-color;
     border-radius: 5px;
   }
   
@@ -150,8 +150,8 @@
   }
   
   .nav-link:hover {
-    color: #fff;
-    background-color: #58e1c1;
+    color: $white-text;
+    background-color: $theme-color;
   }
   
   
@@ -162,7 +162,7 @@
   .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $white-text;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
@@ -196,6 +196,8 @@
   
   .form {
     flex-basis: 100%;
+    border: 2px solid $secondary-theme-color;
+    padding: 25px;
   }
   
   .input{
@@ -204,7 +206,7 @@
     margin: 10px auto 0;
     border: none;
     padding: 10px;
-    border-bottom: 5px solid #58e1c1;
+    border-bottom: 5px solid $theme-color;
   }
   
   .hidden {
@@ -250,7 +252,7 @@
   /* ============================================= */
   /*              Media Queries                    */
   /* ============================================= */
-  @media (min-width: 768px) {
+  @media (min-width: $mq-breakpoint) {
   
   .container {
     max-width: 1400px;

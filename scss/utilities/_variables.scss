@@ -1,7 +1,7 @@
 $theme-color: #58e1c1;
 $text-color: #777;
-$hover-color: #fff;
+$white-text: #fff; 
 $link-color: #51ddfc;
-$form-color: complement(#58e1c1);
+$secondary-theme-color: darken(#58e1c1);
 
 $mq-breakpoint: 768px;
