@@ -2,6 +2,6 @@ $theme-color: #58e1c1;
 $text-color: #777;
 $white-text: #fff; 
 $link-color: #51ddfc;
-$secondary-theme-color: darken(#58e1c1);
+$secondary-theme-color: darken(#58e1c1, 25%);
 
-$mq-breakpoint: 768px;
+$breakpoint: 768px;
