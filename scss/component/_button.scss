@@ -9,7 +9,7 @@
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
-    border-radius: 5px;
+    @include rounded;
     transition: background-color .75s;
   }
   

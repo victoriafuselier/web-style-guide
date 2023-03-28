@@ -1,0 +1,8 @@
+@mixin centered {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin rounded {
+    border-radius: 5px;
+}

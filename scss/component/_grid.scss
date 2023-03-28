@@ -17,7 +17,7 @@
     flex-basis: 100%;
     min-height: 25px;
     padding: 10px;
-    border-radius: 5px;
+    @include rounded;
   }
   
   .theme.col-1 {
